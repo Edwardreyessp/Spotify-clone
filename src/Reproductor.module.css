@@ -79,3 +79,27 @@ input[type="range"]::-webkit-slider-runnable-track {
   background-color: #777;
   height: 3px;
 }
+
+@media (max-width: 400px) {
+  .reproductor {
+    flex-direction: column;
+  }
+
+  .reproductor h2 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .sound {
+    margin-top: 0.5rem;
+  }
+
+  .progress {
+    width: 15rem;
+    margin: 0.5rem 0;
+  }
+
+  input[type="range"] {
+    width: 200px;
+  }
+}

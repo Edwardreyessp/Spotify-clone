@@ -47,3 +47,22 @@
 .search button:hover {
   opacity: 0.8;
 }
+
+@media (max-width: 400px) {
+  .songsContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .song {
+    max-width: 16rem;
+  }
+
+  .search input {
+    margin: 1rem 0.5rem 1rem 0;
+    border: none;
+    padding: 0.2rem;
+    width: 10rem;
+  }
+}

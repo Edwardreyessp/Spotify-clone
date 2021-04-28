@@ -8,11 +8,7 @@ const Home = ({favoriteSongs, setFavoriteSongs, setCurrentSong}) => {
     return (
         <main className={styles.home}>
             <h1 className={styles.title}>Favorite Songs</h1>
-            <section style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(3, 1fr)",
-                gap: "1rem"
-            }}>
+            <section className={styles.songHome}>
                 {favoriteSongs.length > 0 
                     ? favoriteSongs.map((song, index) => 
                         <Song
