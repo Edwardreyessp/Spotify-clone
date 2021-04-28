@@ -1,0 +1,23 @@
+.rout {
+  display: flex;
+  background: linear-gradient(#585858, #121212);
+  min-height: 100vh;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #000000;
+  align-items: center;
+}
+
+.linki {
+  margin-bottom: 2rem;
+  text-decoration: none;
+  color: white;
+}
+
+.linki:hover {
+  opacity: 0.8;
+}
